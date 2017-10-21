@@ -1,0 +1,22 @@
+{
+  "name": "deathburger/yii2-teapot-http-exception",
+  "description": "AdvCash component for Yii2 framework",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Karvaka",
+      "email": "deathburger777@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "~2"
+  },
+  "autoload": {
+    "psr-4": {
+      "deathburger\\teapot\\": "./src"
+    }
+  }
+}
