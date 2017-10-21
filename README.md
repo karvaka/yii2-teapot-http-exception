@@ -1,4 +1,6 @@
-# Yii2 missing "I'm a teapot" HTTP exception
+# I'm a teapot
+
+Yii2 missing "I'm a teapot" HTTP exception
 
 ## Installation
 
@@ -12,6 +14,9 @@ $ composer require deathburger/yii2-teapot-http-exception
 
 # Usage
 ```php
+<?php
+use deathburger\teapot\TeapotHttpException;
+
 if($developer->noIdeaWhichHttpStatusINeed()) {
     throw new TeapotHttpException("I'm a teapot");
 }
