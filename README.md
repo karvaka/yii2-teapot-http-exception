@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 $ composer require deathburger/yii2-teapot-http-exception
 ```
 
-# Usage
+## Usage
 ```php
 <?php
 use deathburger\teapot\TeapotHttpException;
