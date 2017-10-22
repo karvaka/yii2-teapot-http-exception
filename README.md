@@ -1,12 +1,10 @@
 # I'm a teapot
 
-Yii2 missing "I'm a teapot" HTTP exception
+Yii2 missing "I'm a teapot" HTTP exception.
 
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either run
 
 ```bash
 $ composer require deathburger/yii2-teapot-http-exception
